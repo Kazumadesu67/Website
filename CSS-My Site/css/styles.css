@@ -1,7 +1,5 @@
-div{
-  background-color:#edf7fa;
-
-
+a{
+  color: #11999E;
 }
 body{
 margin: 0;
@@ -9,15 +7,38 @@ border-radius: 0;
 text-align: center;
 font-family: 'Merriweather', serif
 }
+div{
+  background-color:white;
+}
 h1{
   font-family: 'Sacramento',cursive;
-  font-size: 50px;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  line-height: 1;
+  color: #66BFBF;
 }
 h2{
   font-family: 'Montserrat',sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
 }
 h3{
   font-family: 'Montserrat',sans-serif;
+  color: #11999E;
+}
+p{
+  font-weight: normal;
+}
+.top-container{
+  background-color: #d2fafb;
+}
+.bottom-container{
+  background-color: #d2fafb;
+}
+.contact-me{
+  background-color: #d2fafb;
+  padding-top: 15px;
+  padding-bottom: 50px;
 }
 .cloud2{
   position: absolute;
@@ -28,7 +49,27 @@ h3{
   padding-top: 100px;
 }
 .wedding-pic{
-  height:200px;
+  margin-top: 25px;
+  height:225px;
   width: 250px;
   border-radius: 100%
+}
+.programming{
+  height: 25%;
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+
+}
+.martial-arts{
+  height: 25%;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skill-row{
+  width:50%;
+  margin: 250px auto 250px auto;
+  text-align: left;
+  line-height: 2;
 }
